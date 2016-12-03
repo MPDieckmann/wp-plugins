@@ -13,4 +13,4 @@ Each WordPress-Plugin has its own branch in this repository except the branches 
 
 Here is a list to some plugins
 
-Crossword Puzzle Plugin: https://github.com/MPDieckmann/wp-plugins/tree/crossword-puzzle
+* Crossword Puzzle Plugin: https://github.com/MPDieckmann/wp-plugins/tree/crossword-puzzle
