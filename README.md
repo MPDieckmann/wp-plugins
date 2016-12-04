@@ -1,9 +1,14 @@
 # Crossword Puzzle Plugin
 Contributors: MPDieckmann
+
 Tags: games,game,crossword,puzzle
-Requires at least: 2.5
-Tested up to: 4.6
+
+Requires at least: WordPress version 2.5
+
+Tested up to: WordPress version 4.6
+
 License: GPLv3
+
 License URI: https//www.gnu.org/licenses/gpl-3.0.html
 
 ## Description
