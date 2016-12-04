@@ -1,15 +1,10 @@
 # Crossword Puzzle Plugin
-Contributors: MPDieckmann
-
-Tags: games,game,crossword,puzzle
-
-Requires at least: WordPress version 2.5
-
-Tested up to: WordPress version 4.6
-
-License: GPLv3
-
-License URI: https//www.gnu.org/licenses/gpl-3.0.html
+Contributors: [MPDieckmann](https://github.com/MPDieckmann/)<br/>
+Tags: games,game,crossword,puzzle<br/>
+Requires at least: WordPress version 2.5<br/>
+Tested up to: WordPress version 4.6<br/>
+License: GPLv3<br/>
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 ## Description
 
