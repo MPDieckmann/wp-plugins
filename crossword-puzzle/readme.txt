@@ -1,0 +1,67 @@
+=== Crossword Puzzle Plugin ===
+Contributors: MPDieckmann
+Tags: games,game,crossword,puzzle
+Requires at least: 2.5
+Tested up to: 4.6
+License: GPLv3
+License URI: https//www.gnu.org/licenses/gpl-3.0.html
+
+Crossword Puzzle Plugin converts a valid csv-file (optimized for crossword puzzle plugin) to a crossword puzzle table, which can be filled by the visitors.
+
+== Description ==
+
+Crossword Puzzle Plugin converts a valid csv-file (optimized for crossword puzzle plugin) to a crossword puzzle table, which can be filled by the visitors.
+
+== Installation ==
+
+1. Upload the plugin files to the `/wp-content/plugins/crossword-puzzle` directory, *(following is **not** supportet: install the plugin through the WordPress plugins screen directly)*.
+1. Activate the plugin through the 'Plugins' screen in WordPress
+1. Upload a valid csv-file (optimized for crossword puzzle plugin) and copy the link to the file on wordpress
+1. Go to the (or create a new) article and include at that point you wish the crossword-puzzle to apear following shortcode `[crossword url="__URL__" check-button="__CHECK__" float="__FLOAT__"]`
+1. Replace `__URL__` with your copied url to the uploaded csv-file
+1. Replace `__CHECK__` with either `true` (if you wish to see a check-button) or `false` (if you don't wish to see a check-button) or leave out this attribute (so it will default to `true`)
+1. Replace `__FLOAT__` with either `left` (if you wish the puzzle to flaot left) or `right` (if you wish the puzzle to float right) or leave out this attribute (so it will be displayed as a block)
+
+== Frequently Asked Questions ==
+
+= What marks a valid csv-file as `crossword puzzle optimized`? =
+
+A `crossword puzzle optimized csv-file` will look like following:
+In the first row in first cell you have to write the keyword `crossword`; each other cell in this row must stay empty.
+The following rows must be filled up with single letters, `questionIndex#arrow`-marks or must stay empty.
+After you have finished filling up the crossword you have to write in the row directly under the crossword in the first cell: `questions`; each other cell in this row must stay empty.
+After this row you have to write the questions in following format:
+* first cell in row: `questionIndex`
+* second cell in row: Your question
+* each following cell in row must stay empty
+
+= What will a `questionIndex#arrow`-mark look like? =
+
+This mark can be splitted up in 3 parts:
+
+1. the `questionIndex`-part: a positive integer starting at 0
+1. the `#`-part: to seperate part 1 and 3
+1. the `arrow`-part: one of the following snippets:
+  * `up`: will display an up-pointing arrow
+  * `down`: will display a down-pointing arrow
+  * `left`: will display a left-pointing arrow
+  * `right`: will display a right-pointing arrow
+
+== Screenshots ==
+
+1. The screenshots shows a valid csv-file (optimized for crossword puzzle)
+
+2. The screenshots shows the output of the valid crossword optimized csv-file (from above)
+
+3. The screenshots shows the dialog shown when pressing on the first arrow
+
+4. The screenshots shows what will happen when the `check crossword`-button is clicked (red cells: input was wrong or empty, green cells: input was correct)
+
+== Changelog ==
+
+= 1.0 =
+
+Plugin is released (after multiple tests).
+
+* It supports csv-files exported by Google Docs Spreadsheet
+* It supports csv-files exported by Microsoft Office Excel
