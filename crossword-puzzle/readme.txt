@@ -4,7 +4,7 @@ Tags: games,game,crossword,puzzle
 Requires at least: 2.5
 Tested up to: 4.6
 License: GPLv3
-License URI: https//www.gnu.org/licenses/gpl-3.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Crossword Puzzle Plugin converts a valid csv-file (optimized for crossword puzzle plugin) to a crossword puzzle table, which can be filled by the visitors.
 
