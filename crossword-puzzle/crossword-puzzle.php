@@ -3,7 +3,7 @@
   Plugin Name: Crossword Puzzle Plugin
   Plugin URI: https://mpdieckmann.github.io/wp_plugins/crossword-puzzle
   Description: Displays Crossword Puzzles which were previously created and uploaded as an CSV-Table
-  Version: 2016.12.03
+  Version: 2016.12.05
   Author: MPDieckmann
   Author URI: https://mpdieckmann.github.io/
   License: GPLv3
