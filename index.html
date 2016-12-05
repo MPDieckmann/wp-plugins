@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+  <link href="/page.class.css" type="text/css" media="all,screen,handheld" rel="stylesheet" />
+  <script src="/page.class.js" type="text/javascript"></script>
+  <title>WordPress Plugins - MPDieckmann</title>
+  <link href="/style.css" type="text/css" media="all,screen,handheld" rel="stylesheet" />
+  <base href="https://mpdieckmann.github.io/" />
+</head>
+
+<body>
+  <page-view class="has-page-panel">
+    <page-page show>
+      <page-header>
+        <h1>WordPress Plugins</h1>
+        <p class="headline">Developed by <a href="https://github.com/MPDieckmann/">MPDieckmann</a></p>
+      </page-header>
+      <page-content>
+        <p>I want to emphasize that I am not liable for any damage or loss of data!</p>
+        <p>Each plugin, developed by <a href="https://github.com/MPDieckmann/">MPDieckmann</a>, is (if no other license is provided) available under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>-License.</p>
+        <p>Click here to view a <a onclick="Page.show(Page.get_pages(this)[1]);Page.hide(Page.get_panel(this));">list of my plugins</a>.
+      </page-content>
+      <page-footer>
+        <p>&copy; 2016 - <a href="https://github.com/MPDieckmann/">MPDieckmann</a></p>
+      </page-footer>
+    </page-page>
+    <page-page>
+      <page-header>
+        <h1>List of Plugins</h1>
+        <p class="headline">Developed by <a href="https://github.com/MPDieckmann/">MPDieckmann</a></p>
+      </page-header>
+      <page-content>
+        <ul>
+          <li><a href="/wp-plugins/crossword-puzzle">Crossword Puzzle</a> - <i>(<a href="https://github.com/MPDieckmann/wp-plugins/tree/crossword-puzzle/">Branch</a>)</i></li>
+        </ul>
+      </page-content>
+    </page-page>
+    <page-overlay onclick="Page.hide(this);"></page-overlay>
+    <page-panel-button onclick="Page.show(Page.get_panels(this)[0]);"></page-panel-button>
+    <page-panel>
+      <page-header>
+        <p class="headline">WordPress Plugins</p>
+      </page-header>
+      <page-content>
+        <h2>Navigation</h2>
+        <ol>
+          <li><a onclick="Page.show(Page.get_pages(this)[0]);Page.hide(Page.get_panel(this));">Home - WP-Plugins</a></li>
+          <li><a onclick="Page.show(Page.get_pages(this)[1]);Page.hide(Page.get_panel(this));">List of Plugins</a></li>
+          <li><a href="/">Home - MPDieckmann</a></li>
+        </ol>
+      </page-content>
+      <page-footer><span>&copy; 2016 - <a href="https://github.com/MPDieckmann/">MPDieckmann</a></span></page-footer>
+    </page-panel>
+  </page-view>
+</body>
+
+</html>
