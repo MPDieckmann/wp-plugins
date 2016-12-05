@@ -10,6 +10,8 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Crossword Puzzle Plugin converts a valid csv-file (optimized for crossword puzzle plugin) to a crossword puzzle table, which can be filled by the visitors.
 
+Downlaod [crossword-puzzle.zip](https://mpdieckmann.github.io/wp-plugins/crossword-puzzle/crossword-puzzle.zip).
+
 ## Installation
 
 1. Upload the plugin files to the `/wp-content/plugins/crossword-puzzle` directory, *(following is **not** supportet: install the plugin through the WordPress plugins screen directly)*.
