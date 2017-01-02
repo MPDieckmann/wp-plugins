@@ -8,7 +8,7 @@ Have fun with my WordPress-Plugins!
 
 ## Information
 
-Each WordPress-Plugin has its own branch in this repository except this "[master](https://github.com/MPDieckmann/wp-plugins/tree/master)" branch which is used to display and manage [https://mpdieckmann.github.io/wp-plugins](https://mpdieckmann.github.io/wp-plugins).
+Each WordPress-Plugin has its own branch in this repository except this "[master](https://github.com/MPDieckmann/wp-plugins/tree/master)" branch.
 
 Here is a list to some plugins
 
